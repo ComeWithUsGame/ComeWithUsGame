@@ -7441,6 +7441,7 @@ section .overlay-wcs {
 }
 
 section .container2 {
+  height: 400px;
   position: relative;
   z-index: 2;
 }
