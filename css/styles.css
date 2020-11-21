@@ -7439,3 +7439,8 @@ section .overlay-wcs {
   opacity: 0.5;
   z-index: 1;
 }
+
+section .containerVideo {
+  position: relative;
+  z-index: 2;
+}
