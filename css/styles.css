@@ -7439,7 +7439,7 @@ section .overlay-wcs {
   z-index: 1;
 }
 
-section container .container2 {
+section .container2 {
   position: relative;
   z-index: 2;
   width: 100%;
