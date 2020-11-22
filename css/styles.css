@@ -7432,8 +7432,8 @@ section .overlay-wcs {
   position: absolute;
   top: 0;
   left: 0;
-  height: 133.3%;
-  width: 102%;
+  height: 100%;
+  width: 100%;
   background-color: black;
   opacity: 0.5;
   z-index: 1;
