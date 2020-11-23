@@ -7421,7 +7421,7 @@ section video {
   top: 50%;
   left: 50%;
   width: 100%;
-  height: auto;
+  height: 100%;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -7432,7 +7432,7 @@ section .overlay-wcs {
   position: absolute;
   top: 0;
   left: 0;
-  height: 109.1%;
+  height: 100%;
   width: 100%;
   background-color: black;
   opacity: 0.5;
