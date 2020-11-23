@@ -7418,8 +7418,8 @@ form .row:first-child .floating-label-form-group {
 
 section video {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   width: 100%;
   height: 100%;
   z-index: 0;
@@ -7430,13 +7430,17 @@ section video {
 }
 section .overlay-wcs {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   height: 100%;
   width: 100%;
   background-color: black;
   opacity: 0.5;
   z-index: 1;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
 section .container2 {
