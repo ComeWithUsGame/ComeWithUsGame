@@ -56,6 +56,7 @@
   
     // Floating label headings for the contact form
     $(function() {
+      console.log("ready")
       $("body").on("input propertychange", ".floating-label-form-group", function(e) {
         $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
       }).on("focus", ".floating-label-form-group", function() {
@@ -66,4 +67,7 @@
     });
   
   })(jQuery); // End of use strict
+
+
+
   
