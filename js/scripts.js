@@ -64,9 +64,9 @@
       };
 
       console.log("ready")
-      console.log(window.mobileAndTabletCheck)
+      console.log(window.mobileAndTabletCheck())
 
-      if(window.mobileAndTabletCheck == false){
+      if(window.mobileAndTabletCheck() == false){
         console.log($("#overlay"))
         $("#overlay").prop("disabled", true)
       }
